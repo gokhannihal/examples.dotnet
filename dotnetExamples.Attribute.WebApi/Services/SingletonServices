@@ -1,0 +1,12 @@
+using dotnetExamples.Attribute.WebApi.Services;
+
+namespace dotnetExamples.Attribute.WebApi.Services;
+
+public static class SingletonServices
+{
+    public static WebApplicationBuilder AddSingletonServices(this WebApplicationBuilder builder)
+    {
+      
+      return builder;
+    }
+}
