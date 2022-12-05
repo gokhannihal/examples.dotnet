@@ -1,4 +1,5 @@
 
+using dotnetExamples.Attribute.WebApi.ActionFilters;
 using dotnetExamples.Attribute.WebApi.Services;
 using Microsoft.AspNetCore.Mvc;
 
@@ -6,6 +7,7 @@ namespace dotnetExamples.Attribute.WebApi.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
+[AdvanceLogging]
 public class CountriesController : ControllerBase
 {
  

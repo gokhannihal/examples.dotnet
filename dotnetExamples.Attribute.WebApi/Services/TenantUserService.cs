@@ -6,7 +6,7 @@ public class TenantUserService
 {
     // todo Tenant Name Required
     // go db and get Tentant users
-    public IEnumerable<Users> GetAllUsers()
+    public IEnumerable<Users> GetAllUsers(string tenantName)
     {
         return new List<Users>(){
             new Users(){ Id=1 , EmailAddress="gokhan.nihal@outlook.com.tr"}
